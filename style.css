@@ -31,4 +31,9 @@ table{
 }
 
 }
+.observaciones {
+    max-width: 500px;
+    white-space: normal;
+    word-wrap: break-word;
+}
 ``

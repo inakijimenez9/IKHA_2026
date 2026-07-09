@@ -161,6 +161,7 @@ function renderizar(rows) {
                 <th>Perfil</th>
                 <th>Preceptividad</th>
                 <th>Situación</th>
+				<th>Observaciones</th>
             </tr>
         </thead>
         <tbody>
@@ -177,8 +178,9 @@ function renderizar(rows) {
             <td>${r.DESCRIPCION_NIVEL || ""}</td>
             <td>${r.DESC_ASIGNATURA || ""}</td>
             <td>${r.DESC_PERFIL || ""}</td>
-            <td>${r.PRECEPTIVIDAD || ""}</td>
-            <td>${r.SITUACION_VACANTE || ""}</td>
+			<td>${r.PRECEPTIVIDAD || ""}</td>
+			<td>${r.SITUACION_VACANTE || ""}</td>
+			<td>${r.OBSERVACIONES || ""}</td>
         </tr>
         `;
 
